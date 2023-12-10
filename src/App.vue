@@ -20,6 +20,8 @@ export default {
 </script>
 
 <template>
+<h2>Incremetador/Decrementador de valores</h2>
+
 <button @click="incrementarContador">Incrementar</button>
 <button @click="decrementarContador">Decrementar</button>
 <p>Valor do contador é {{ contador }}</p>
@@ -28,5 +30,10 @@ export default {
 <style scoped>
 button {
   font-weight: bold;
+}
+</style>
+<style scoped>
+h2 {
+ text-align: justify;
 }
 </style>
