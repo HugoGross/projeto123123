@@ -1,11 +1,11 @@
 <script setup>
 const url = ("https://www.youtube.com/watch?v=BbeeuzU5Qc8")
 
-    const nome = 'Hugo'
+    const nome = 'hugo'
     const idade = 18
 
     function inverter(texto) {
-        return texto.split('').reverse().join('')
+        return texto.split('').reverse().join('').toUpperCase()
     }
 
     function saudacao() {
